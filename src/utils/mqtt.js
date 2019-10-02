@@ -50,4 +50,4 @@ class MQTTClient {
 
 }
 
-export default new MQTTClient("wss://server.pickfast.in:3001");
+export default new MQTTClient("wss://broker.pickfast.in/");

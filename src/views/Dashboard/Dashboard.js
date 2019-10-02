@@ -52,8 +52,7 @@ import {
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
 
-axios.defaults.baseURL = 'http://127.0.0.1:3000';
-
+axios.defaults.baseURL = 'https://server.pickfast.in';
 
 const useStyles = makeStyles(styles);
 
